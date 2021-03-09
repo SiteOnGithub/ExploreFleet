@@ -1,0 +1,219 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(222, 222, 222, 0.5);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #525252;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  
+  font-family: Corbel Light;
+  font-size: 150%;
+
+padding: 50px;
+}
+
+/* Change the link color to ##c7c7c7 (#c7c7c7) on hover */
+li a:hover {
+  background-color: rgba(212, 212, 212, 0.5);
+}
+
+
+
+li:last-child {
+  border-right: none;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+h1 {
+
+ display: block;
+  /*color: #c7c7c7;*/
+  color: #525252;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  
+  font-family: Corbel Light;
+  font-size: 350%;
+
+}
+
+credit {
+
+ display: block;
+  /*color: #c7c7c7;*/
+  color: #525252;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  
+  font-family: Corbel Light;
+  font-size: 80%;
+
+}
+
+h2 {
+ display: block;
+  color: #525252;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  
+  font-family: Corbel Light;
+  font-size: 150%;
+
+}
+
+h3 {
+ display: block;
+ /*color: #c7c7c7;*/
+  color: #525252;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Corbel Light;
+  font-size: 200%;
+}
+
+h4 {
+ display: block;
+ /*color: #c7c7c7;*/
+  color: #525252;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Corbel Light;
+  font-size: 400%;
+}
+
+secret {
+  color: #525252;
+  text-decoration: none;
+  font-family: Corbel Light;
+  
+}
+
+.bg-img {
+  width: 100%;
+  padding: 10% 0;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid;
+}
+
+
+/*https://gist.github.com/grevory/5369438*/
+.thumbnail.with-caption {
+    display: inline-block;
+    background: #f5f5f5;
+  }
+  .thumbnail.with-caption p {
+    margin: 0;
+    padding-top: 0.5em;
+  }
+  .thumbnail.with-caption small:before {
+    content: '\2014 \00A0';
+  }
+  .thumbnail.with-caption small {
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+    color: #999;
+  }
+/*https://gist.github.com/grevory/5369438*/
+
+
+/*https://codepen.io/cb_rn/pen/OVXXmj*/
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.rainbow {
+  
+   /* Font options */
+  font-family: 'Corbel Light', cursive;
+  text-shadow: 2px 2px 4px #000000;
+  font-size:40px;
+  
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 5s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+   0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+/*https://codepen.io/cb_rn/pen/OVXXmj*/
+
+
+
+body {
+/*SAMPLE IMAGE, REMOVE LATER!*/
+  background-image: url('resources/images/leavesrepeatlight2.jpg'); 
+ /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+
+}
