@@ -110,6 +110,20 @@ secret {
   font-family: Corbel Light;
   
 }
+development {
+
+ display: block;
+  /*color: #c7c7c7;*/
+  color: #525252;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  
+  font-family: Corbel Light;
+  font-size: 100%;
+
+}
 
 .bg-img {
   width: 100%;
