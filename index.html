@@ -26,5 +26,18 @@ Click me to display Date and Time.</button><li>
 <h2>We have information on <a href="places.html">Places to go</a>, <a href="travel.html">Ways to get there</a>, <a href="food.html">Places to eat</a> And <a href="accomodation.html">Places to stay.</a></h2>
   
 <h2>If you have any questions, please see our <a href="faq.html">FAQ</a>.</h2>   
-</body>
+  
+  
+  
+  </body>
+<p>Date/Time: <span id="datetime"></span></p>
+
+<footer>
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+</footer>
+  
+
 </html>
