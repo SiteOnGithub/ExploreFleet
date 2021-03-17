@@ -1,11 +1,13 @@
+
 footer {
+	/*some issues here, unsure what is causing the font to display inccorectly. May need to copy in H2 */
   text-align: center;
   padding: 3px;
   background-color: rgba(222, 222, 222, 0.5);
   color: #525252;
 }
 
-ul {
+ul { /*Used for Navbar */
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -14,10 +16,12 @@ ul {
 }
 
 li {
+	/*Used for navbar */
   float: left;
 }
 
 li a {
+	/*Sets colour of text, font, size, background colour */
   display: block;
   color: #525252;
   text-align: center;
@@ -41,13 +45,13 @@ li a:hover {
 li:last-child {
   border-right: none;
 }
-
+/*If the box is selected, turn the box in the navbar a darker colour to indicate which has been selected*/
 .active {
   background-color: #4CAF50;
 }
 
+/*Set up h1. Used for page titles*/
 h1 {
-
  display: block;
   /*color: #c7c7c7;*/
   color: #525252;
@@ -75,7 +79,7 @@ credit {
   font-size: 80%;
 
 }
-
+/*A smaller font used for paragraphs */
 h2 {
  display: block;
   color: #525252;
@@ -88,7 +92,7 @@ h2 {
   font-size: 150%;
 
 }
-
+/*Used for sub titles / headings (?) */
 h3 {
  display: block;
  /*color: #c7c7c7;*/
@@ -99,7 +103,7 @@ h3 {
   font-family: Corbel Light;
   font-size: 200%;
 }
-
+/*Unused(?). Large font. */
 h4 {
  display: block;
  /*color: #c7c7c7;*/
@@ -117,8 +121,8 @@ secret {
   font-family: Corbel Light;
   
 }
+/*Unused(?). For Work In Progress (WIP) elements */
 development {
-
  display: block;
   /*color: #c7c7c7;*/
   color: #525252;
@@ -131,7 +135,7 @@ development {
   font-size: 100%;
 
 }
-
+/*Background image? */
 .bg-img {
   width: 100%;
   padding: 10% 0;
@@ -230,7 +234,7 @@ development {
 /*https://codepen.io/cb_rn/pen/OVXXmj*/
 
 
-
+/*Set background image */
 body {
 /*SAMPLE IMAGE, REMOVE LATER!*/
   background-image: url('resources/images/leavesrepeatlight2.jpg'); 
